@@ -1,0 +1,80 @@
+body {
+  font-family: "calibri";
+  background-color: white;
+  margin: auto;
+}
+
+.txt{
+  height: 35px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  background-color: #EEE;
+  padding: 3px;
+  border: 1px solid #ccc;
+}
+
+#box {
+ margin: 2px;
+  position: fixed;
+  width: 889px;
+   height: 535px;
+    border: solid 2px #808080;
+    /* definimos o quão arredondado irá ficar nosso box */
+   border-radius: 10px;
+   * Declaração para aparecer no Firefox */
+   -moz-border-radius: 10px;
+  /* Para exibir nos outros navegadores como Chrome, safari, opera*/
+  -webkit-border-radius: 10px;
+}
+
+
+#box2 {
+  margin: 2px;
+  width: 1000px;
+  height: 500px;
+  border: solid 2px #808080;
+  /* definimos o quão arredondado irá ficar nosso box */
+  border-radius: 10px;
+  /* Declaração para aparecer no Firefox */
+  -moz-border-radius: 10px;
+  /* Para exibir nos outros navegadores como Chrome, safari, opera*/
+  -webkit-border-radius: 10px;
+}
+
+
+h1 {
+   top: 0px;
+   left: auto;
+   background: #fff;
+   text-align: center;
+           }
+h3 {
+  background-color: #006400;
+
+        text-align: center;
+          }
+
+#btncad {
+width: 100px;
+height: 30px;
+background-color: #3CB371;
+border-radius: 4px;
+border: 1px solid #CCC;
+}
+
+#btncan {
+width: 100px;
+height: 30px;
+background-color: #FF6347;
+border-radius: 4px;
+border: 1px solid #CCC;
+}
+.navbar-default {
+      height: 70px !important;
+    text-align: center;
+}
+.navbar-brand, .btn-center{
+      width: 100%;
+    margin: 0 auto;
+}
